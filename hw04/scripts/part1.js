@@ -1,3 +1,5 @@
+// Amy Chew
+
 let language
 let languageCode
 
