@@ -29,6 +29,8 @@ const clearData = () => {
 }
 
 //Note: language codes here: https://www.w3schools.com/tags/ref_language_codes.asp
+
+// value of the Id named "term"
 const getData = () => {
 
     const term = document.getElementById('term').value
@@ -42,6 +44,7 @@ const getData = () => {
             let div
             let textNode
             let status
+            // Amy's Note: created 3 variables div, textNode and status
 
             // output statuses:
             console.log(json.statuses)
@@ -50,9 +53,9 @@ const getData = () => {
             clearData()
 
             // output the text of the first tweet:
-            status = json.statuses[0]
-            div = document.createElement("div")
-            div.className = "tweet"
+            status = json.statuses[0] // Amy's note: changed status variable to the first json.statuses
+            div = document.createElement("div") // Amy's note: What does this mean? This is a div variable.
+            div.className = "tweet" // Amy's note: We are giving the div a class name "tweet"?
             textNode = document.createTextNode(status.text)
             div.appendChild(textNode)
             document.getElementById("results").appendChild(div)
@@ -66,24 +69,48 @@ const getData = () => {
             document.getElementById("results").appendChild(div)
 
             // 1. Describe what you think this code is doing.
+            //   Amy's Note: The getData function is returning the tweets that have
+            //   the search terms we have inputted.
 
             // 2. output the text of the third tweet:
+            status = json.statuses[2]
+            div = document.createElement("div")
+            div.className = "tweet"
+            textNode = document.createTextNode(status.text)
+            div.appendChild(textNode)
+            document.getElementById("results").appendChild(div)
 
             // 3. output the text of the fourth tweet:
+            status = json.statuses[3]
+            div = document.createElement("div")
+            div.className = "tweet"
+            textNode = document.createTextNode(status.text)
+            div.appendChild(textNode)
+            document.getElementById("results").appendChild(div)
 
             // 4. output the text of the fifth tweet:
+            status = json.statuses[4]
+            div = document.createElement("div")
+            div.className = "tweet"
+            textNode = document.createTextNode(status.text)
+            div.appendChild(textNode)
+            document.getElementById("results").appendChild(div)
 
             // 5. comment the code above, starting from after the clearData,
             //    and ending right before this comment. Then, un-comment the
             //    code below:
+            //    Amy's Note: The code below will return ALL tweets that contain
+            //    the search term(s) inputted. The code above was more specific
+            //    and returning only the first, second, third, fourth
+            //    fifth tweet results.
 
-            /*json.statuses.forEach(function (status) {
-                div = document.createElement("div")
-                div.className = "tweet"
-                textNode = document.createTextNode(status.text)
-                div.appendChild(textNode)
-                document.getElementById("results").appendChild(div)
-            })*/
+            // json.statuses.forEach(function (status) {
+            //     div = document.createElement("div")
+            //     div.className = "tweet"
+            //     textNode = document.createTextNode(status.text)
+            //     div.appendChild(textNode)
+            //     document.getElementById("results").appendChild(div)
+            // })
 
         })
 };

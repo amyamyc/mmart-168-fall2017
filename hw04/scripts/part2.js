@@ -20,6 +20,18 @@ const setLanguage = (code) => {
     document.querySelector("pre").innerHTML = ''
 }
 
+// 1. Amy's Note: getData is a javascript function that will
+// pull the list of search results based on a pool of data.
+
+    //----Amy's Note: const term is assigned = an Id that has a
+    //value named 'term'. 'term' is the search words that we input.
+    //----Amy's Note: const baseURL is a web location or address to where data is pulled?
+
+// 2. Amy's Note: jsonData.statuses [0] to reference the first status of
+// the jsonData.statuses list.
+
+// 3. Amy's Note: jsonData.statuses [4] to reference the fifth status of
+// the jsonData.statuses list.
 
 const getData = () => {
     const term = document.getElementById('term').value
