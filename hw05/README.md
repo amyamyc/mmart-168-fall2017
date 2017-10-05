@@ -18,6 +18,16 @@ This homework will require some googling. As a software engineer, a lot of what 
 ## PART II: Reading response
 Edit README.MD and write your reading response here!
 
+Building a Design System for Healthcare.gov
+Article: https://blog.navapbc.com/building-a-design-system-for-healthcare-gov-20dc1a833ab3
+Open Source Tool:
+https://design.cms.gov/
+
+I wanted to challenge myself this week and reflect on an article that used more Javascript language. This article speaks about the technical decisions made for the development of Healthcare.gov which is the federal website for the U.S. healthcare exchange. The author breaks down these technical decisions into the following categories: Architecture, Documentation, Developer Workflow, Distribution, and Versioning. These decisions would then contribute to a clean, intuitive, readable “template” that other developers (especially in the government service context) can use and scale. The open source tool can be seen here. I thought the tool was particularly interesting because I imagine the web experience for a federal healthcare website will be used by a number of different people varying in socioeconomic status, computer skills, ethnicity, culture etc. I am curious as to how the author’s technical decisions relates to creating a design that is accessible by all of its users.
+
+In the Developer Workflow portion of the open source tool, the author encourages the use of a combination of Browsersync and Webpack’s Hot Module Replacement. These tools will allow users to arrange the code editor right next to browser and allow live browser reloading. These tools will also create documentation files as users makes changes to the code. These tools remind me of JSlint (JS Linter? Is that right?) that we downloaded in Atom during class. This tool improves my workflow by detecting errors in my code. However, I’m curious to know how I bring Browsersync and Webpack to my disposal. Where do I begin to download it? Is it forked on github and then connected to Atom so I can interact with the programs on my own computer?
+
+
 ## Part III: JavaScript Homework
 
 ### Step 1: Reverse a tweet

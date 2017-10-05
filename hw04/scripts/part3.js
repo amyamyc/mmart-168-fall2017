@@ -3,6 +3,7 @@ let languageCode = 'en'
 let jsonData
 
 
+
 const setLanguage = (code) => {
     //Note: language codes here: https://www.w3schools.com/tags/ref_language_codes.asp
     languageCode = code
@@ -47,16 +48,29 @@ const getData = () => {
             // clear out existing tweets:
             clearData()
 
+//**********
+
             // output the text of the first tweet:
             status = json.statuses[0]
+            //create a div
+            div = document.createElement("div")
+            // add class to the div
+            div.className = "tweet"
+            // add text to the div
+            textNode = document.createTextNode(status.text)
+            div.appendChild(textNode)
+            // directing div to id results. whose it mom?
+            document.getElementById("results").appendChild(div)
+
+            // output the text of the second tweet:
+            status = json.statuses[1]
             div = document.createElement("div")
             div.className = "tweet"
             textNode = document.createTextNode(status.text)
             div.appendChild(textNode)
             document.getElementById("results").appendChild(div)
 
-            // output the text of the second tweet:
-            status = json.statuses[1]
+            status = json.statuses[2]
             div = document.createElement("div")
             div.className = "tweet"
             textNode = document.createTextNode(status.text)
