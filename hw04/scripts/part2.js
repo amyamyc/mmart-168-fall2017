@@ -20,8 +20,9 @@ const setLanguage = (code) => {
 }
 
 const getData = () => {
-//go find the element with the id term (html part 2) and get its value and
-//store in a variable called term. Value is what user types "puppies"
+//go find the element with the id 'term' (html part 2) and get its value and
+//store in a variable called term. Value is what user types "puppies". this is your
+//search terms. They are always changing depending on the user. s
     const term = document.getElementById('term').value
 //building the url that you are sending to twitter
     const baseURL = 'https://mmart168-twitter-proxy.herokuapp.com/1.1/search/tweets.json?q=' + term

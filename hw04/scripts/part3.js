@@ -54,7 +54,7 @@ const getData = () => {
             status = json.statuses[0]
             //create a div
             div = document.createElement("div")
-            // add class to the div
+            // add a class to the div
             div.className = "tweet"
             // add text to the div
             textNode = document.createTextNode(status.text)
