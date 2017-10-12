@@ -18,6 +18,16 @@ This homework will require some googling. As a software engineer, a lot of what 
 ## PART II: Reading response
 Edit README.MD and write your reading response here!
 
+“The Age of Algorithms”
+https://99percentinvisible.org/episode/the-age-of-the-algorithm/
+
+(Hi Sarah- re: last hw comments…Yes, interested in accessibility because it’s associated with public health issues. In short, really interested in exploring public health and tech. Appreciate your hmwk comments! )
+
+I enjoyed this podcast because it makes the topic of algorithms more digestible and less intimidating. Algorithms occur in our everyday lives, affecting us in profound and mostly invisible ways. Algorithms control what I see on Facebook, calculates my credit score and calculates my interest rate on my car loan. While most algorithms are created with good intentions and are marketed to remove subjective judgment, this podcast episode examines how algorithms can cause destruction particularly in our criminal justice system. Defendants in our criminal justice system generate risk scores that are taken to account when judges are reconciling jail time, bail and chances of parole. The algorithmc risk score, though sold to the criminal justice system as unbiased, collects data that does not account for societal and social circumstances that defendants have little control over.
+
+Personally, I do not challenge or think twice about algorithms because they are presented as mathematical and scientific and ultimately, too complex for me to interpret. It is eye opening to hear this podcast challenge the use of algorithms within the criminal justice system. The podcast explains how algorithms cannot be truly unbiased because it is influenced by the biases of the creator. Using the example of cooking, algorithms can be seen as a step-by-step guide on how to solve a problem or in the cooking example, how to cook a meal. The creator of the algorithm or the cook curates each ingredient and defines the outcome. So what "ingredients" are used in the algorithms within the criminal justice system? Along with algorithms needing to be more transparent,perhaps, the people utilizing them in the criminal justice system, need to demand/prioritize a close scrutiny of how these algorithms are created. 
+
+
 ## Part III: JavaScript Homework
 
 Twitter used to have a star to show that users had "favorited" a tweet. They changed it to a heart at some point, but, honestly, it's easier to make a star in Illustrator, so we're making our Twitter with stars.
